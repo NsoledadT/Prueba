@@ -1,0 +1,383 @@
+body{
+margin:0 auto;
+font-family:arial;
+font-weight:bold;
+color:#666666;
+}
+
+hr{
+border: 1px solid #ff6600;
+}
+
+h2{
+color:#ff6600;
+}
+
+#encabezado{
+background: url("../img/barra.jpg") repeat-x #1e1e1e;
+height:115px;
+width:100%;
+}
+
+#encabezado p{
+float:left;
+margin-left:250px;
+}
+
+#encabezado span,a{
+font-size:11px;
+}
+
+#encabezado a{
+color:#ff6600;
+}
+
+#contenido{
+height:470px;
+width:1000px;
+margin:0 auto;
+}
+
+#encabezado img{
+margin-top:6px;
+margin-left:288px;
+float:left;
+}
+
+#menu{
+background: url("../img/fondobarra2.png") repeat-x;
+height:48px;
+width:80%;
+margin-top:-16px;
+padding-left:20%;
+}
+
+#menu a {
+text-decoration:none;
+font-family:arial;
+font-weight:bold;
+color:white;
+font-size:14px;
+margin-left:-21px;
+padding:7px 5px 5px 5px;
+}
+
+#menu a:hover{
+background: url("../img/fondo_boton.gif") repeat-x;
+}
+
+#menu  li  {
+float:left;
+margin-left:20px;
+margin-top:5px;
+list-style-type:none;
+}
+
+#recuadro_izquierdo{
+width:355px;
+height:260px;
+float:left;
+margin-left:120px;
+}
+
+#recuadro_izquierdo img{
+float:left;
+}
+
+#recuadro_izquierdo p{
+background-color:#f2f2f2;
+width:300px;
+height:37px;
+font-size:12px;
+float:left;
+margin-top:5px;
+vertical-align: baseline;
+}
+
+#recuadro_izquierdo_mi_pedido{
+float:left;
+width:390px;
+height:auto;
+}
+
+.blanco{
+width:390px;
+height:50px;
+}
+
+.blanco2{
+width:390px;
+height:4px;
+}
+
+#recuadro_derecho{
+width:355px;
+height:260px;
+float:left;
+clear:right;
+margin-left:50px;
+}
+
+#recuadro_derecho span{
+font-size:18px;
+color:#9a9a9a;
+}
+
+#recuadro_derecho form{
+background: url("../img/fondoForm.jpg") repeat-x;
+width:290px;
+height:170px;
+border-style:solid;
+border-color:#999999;
+border-width:1px;
+padding-left:60px;
+color:#666666;
+font-size:13px;
+}
+
+#recuadro_derecho input[type="image"]{
+margin-left:50px;
+}
+
+#recuadro_derecho input[type="text"]{
+background-color:#eeeeee;
+border-style:solid;
+border-color:#999999;
+border-width:1px;
+}
+
+#recuadro_derecho_mi_pedido{
+float:right;
+width:310px;
+height:300px;
+}
+
+#formulario{
+width:308px;
+height:80px;
+background-color:#e1e1e1;
+border-top-style:solid;
+border-top-color:#999999;
+border-top-width:1px;
+border-left-style:solid;
+border-left-color:#999999;
+border-left-width:1px;
+border-right-style:solid;
+border-right-color:#999999;
+border-right-width:1px;
+margin-top:-12px;
+
+}
+#recuadro_derecho_mi_pedido form {
+
+margin-top:8px;
+}
+
+#recuadro_derecho_mi_pedido form p{
+text-align:right;
+margin-top:-10px;
+}
+
+
+
+#recuadro_derecho_mi_pedido form input[type="image"]{
+height:35px;
+width:128px;
+float:left;
+margin-top:-45px;
+margin-left:5px;
+}
+
+#recuadro_derecho_mi_pedido form input[type="text"]{
+background-color:#eeeeee;
+border-style:solid;
+border-color:#cccccc;
+border-width:1px;
+margin-top:-2px;
+}
+
+#recuadro_derecho_mi_pedido p span{
+font-size:14px;
+font-weight:lighter;
+text-height:4px;
+}
+
+
+
+#recuadro_blanco{
+background-color:white;
+padding:1px 0 4px 0;
+width:308px;
+height:47px;
+border-bottom-style:solid;
+border-bottom-color:#999999;
+border-bottom-width:1px;
+border-left-style:solid;
+border-left-color:#999999;
+border-left-width:1px;
+border-right-style:solid;
+border-right-color:#999999;
+border-right-width:1px;
+}
+
+#recuadro_blanco p{
+font-size:14px;
+font-weight:lighter;
+color:#ff8f00;
+margin-left:8px;
+vertical-align:300px;
+text-height:50px;
+margin-top:
+}
+
+.link{
+color:#ff6600;
+}
+
+.link_1{
+color:#ff6600;
+font-size:15px;
+}
+
+#contenedor_comida{
+width:850px;
+height:140px;
+clear:left;
+margin:0 auto;
+padding-top:40px;
+}
+
+.comida{
+background-color:#373737;
+width:152px;
+height:125px;
+float:left;
+margin-left:50px;
+}
+
+.comida img, .comida_sugerencias img{
+margin-left:1px;
+margin-top:1px;
+}
+
+.uno{
+color:white;
+font-size:11px;
+margin-left:1px;
+vertical-align:3px;
+}
+
+#pie{
+width:550px;
+height:100px;
+clear:left;
+padding-top:20px;
+color:#666666;
+margin:0 auto;
+}
+
+#pie p{
+float:left;
+margin-left:20px;
+font-weight:lighter;
+}
+
+
+#pie span{
+font-weight:bold;
+color:#ff6600;
+}
+
+#contenedor_comida_mi_pedido{
+width:310px;
+height:330px;
+float:right;
+margin-top:-106px;
+}
+
+.comida_sugerencias{
+background-color:#373737;
+width:152px;
+height:125px;
+float:left;
+margin-top:-1px;
+}
+
+.recuadro_platos_1,.recuadro_platos_2,.recuadro_platos_3{
+margin-top:-14px;
+width:390px;
+height:auto;
+display:none;
+}
+
+#recuadro_menu {
+width:390px;
+height:auto;
+}
+
+#recuadro_menu p{
+margin-left:30px;
+margin-top:-28px;
+}
+
+#recuadro_menu img{
+margin-top:-15px;
+}
+
+#contenido_mi_pedido{
+height:600px;
+width:740px;
+margin:0 auto;
+}
+
+.platos{
+width:378px;
+height:50px;
+padding:0 5px 5px 5px;
+border-left-style:solid;
+border-left-color:#cccccc;
+border-left-width:1px;
+border-right-style:solid;
+border-right-color:#cccccc;
+border-right-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#cccccc;
+border-bottom-width:1px;
+}
+
+.platos img{
+margin-left:5px;
+vertical-align:-20px;
+}
+
+.platos p img{
+margin-left:328px;
+vertical-align:200px;
+}
+
+.platos h5{
+margin-top:-32px;
+margin-left:30px;
+}
+
+.platos h5 span{
+font-size:11px;
+}
+
+.platos p{
+font-size:11px;
+font-weight:lighter;
+padding-top:5px;
+}
+
+.platos h6{
+font-size:12px;
+font-weight:bold;
+float:right;
+margin-right:25px;
+margin-top:-40px;
+}
+
+
+
+
